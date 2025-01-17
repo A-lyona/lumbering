@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Лесозаготовки</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../../assets/0.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+			<div class="header_logo_wrapper">
+				<img src="../../assets/19.png" alt="logo" class="header_logo"></img>
+				<div class="header_contact_wrapper">
+					<a href="../../pages/about/index.html"><p class="header_text">О Компании</p></a>
+					<a href="../../pages/pay/index.html"><p class="header_text">Доставка и Оплата</p></a>
+					<a href="../../pages/contacts/index.html"><p class="header_text">Контакты</p></a>
+				</div>
+				<div class="header_time_wrapper">
+					<img src="../../assets/21.png" alt="logo"></img>
+					<p class="header_time_text">Пн-Вс 8:00 - 17:00</p>
+					<img src="../../assets/22.png" alt="logo"></img>
+					<p class="header_time_text">+375 (44) 525-10-52</p>
+				</div>
+				<button class="header_title_button" id="myBtn">ОСТАВИТЬ ЗАЯВКУ</button>
+				<!--........................................................бургер-меню................................................-->
+				<div class="burger_button">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+        <div class="burger_wrapper">
+          <ul>
+            <a href="../../pages/main/index.html"><li class="burger_link">ГЛАВНАЯ</li></a>
+            <a href="../../pages/about/index.html"><li class="burger_link">О КОМПАНИИ</li></a>
+            <a href="../../pages/pay/index.html"><li class="burger_link">ДОСТАВКА И ОПЛАТА</li></a>
+            <a href="../../pages/contacts/index.html"><li class="burger_link">КОНТАКТЫ</li></a>
+            <a href="../../pages/cataloge/index.html"><li class="burger_link">КАТАЛОГ</li></a>
+        </ul>
+        <p class="burger_text">Пн-Вс 8:00 - 17:00</p>
+        <p class="burger_text">+375 (44) 525-10-52</p>
+        </div>
+				<!--........................................................бургер-меню................................................-->
+			</div>
+		</header>
+  	<main>
+            <!-- ...........................................Модальное окно.................................................... -->
+			<div id="myModal" class="modal">
+        <div class="modal_wrapper">
+          <form class="decor">
+            <div class="form_inner">
+              <h3 class="decor_title">
+                Заполните форму
+              </h3>
+              <p  class="decor_text">И в ближайшее время сотрудник нашей компании свяжется с Вами</p>
+              <input
+                type="text"
+                placeholder="Имя"
+                class="input_class"
+                required
+              />
+              <input
+                type="tel"
+                placeholder="Телефон"
+                class="input_class"
+                required
+              />
+              <input
+							type="email"
+							placeholder="E-mail"
+              class="input_class"
+							required
+							/></input>
+              <input type="submit" value="Отправить" class="input_but" />
+            </div>
+            <div class="checkbox_wrapper">
+              <input type="checkbox" id="vehicle" name="" value="" class="checkbox">
+              <label for="vehicle"> 
+                <span>Отправляя эту форму, вы даете свое согласие на обработку персональных данных в соответствии с нашей
+                   <a href="https://sunward.by/privacy-policy" class="label_link" target="_blank">Политикой конфиденциальности</a>.</span>
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+			<!-- ...........................................Модальное окно................................................... -->
+			<div class="main_title_wrapper">
+				<img src="../../assets/23.png" alt="logo" class="main_title_logo"></img>
+				<h1 class="main_title">КОНТАКТЫ</h1>
+				<p class="main_text">ВЕРНУТЬСЯ НА <a href="../../pages/main/index.html"><span class="main_text_span">ГЛАВНУЮ</span></a></p>
+			</div>
+			<div class="main_wrapper">
+        <div class="main_card_wrapper">
+          <div class="main_wrapper_contacts">
+            <h1 class="main_wrapper_title">НАШ ОФИС</h1>
+            <div class="horizontal"></div>
+            <p class="main_wrapper_text"><img src="../../assets/24.png" alt="logo" class="main_wrapper_logo"></img>Адрес: Борисовский р-н д. Углы ул. Московское шоссе д.1 ком.3</p>
+            <p class="main_wrapper_text"><img src="../../assets/25.png" alt="logo" class="main_wrapper_logo"></img>Телефон: +375 (44) 525-10-52</p>
+            <p class="main_wrapper_text"><img src="../../assets/26.png" alt="logo" class="main_wrapper_logo"></img>Время работы: Пн. - Пт. 9.00 - 19.00</p>
+            <p class="main_wrapper_text"><img src="../../assets/27.png" alt="logo" class="main_wrapper_logo"></img>E-mail: 3329688@mail.gomel.by</p>
+          </div>
+          <div class="main_wrapper_map"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18648.9802974569!2d28.53305450208549!3d54.248716818393795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JHQvtGA0LjRgdC-0LLRgdC60LjQuSDRgC3QvSDQtC4g0KPQs9C70Ysg0YPQuy4g0JzQvtGB0LrQvtCy0YHQutC-0LUg0YjQvtGB0YHQtSDQtC4x!5e0!3m2!1sru!2sby!4v1735484668650!5m2!1sru!2sby" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="main_map"></iframe></div>
+        </div>
+        <div class="main_card_wrapper">
+          <div class="main_wrapper_contacts">
+            <h1 class="main_wrapper_title">ДРЕВООБРАБАТЫВАЮЩИЙ ЦЕХ</h1>
+            <div class="horizontal"></div>
+            <p class="main_wrapper_text"><img src="../../assets/24.png" alt="logo" class="main_wrapper_logo"></img>Адрес: г.Гомель, ул. Ленинградская, 42</p>
+            <p class="main_wrapper_text"><img src="../../assets/25.png" alt="logo" class="main_wrapper_logo"></img>Телефон: 8-0232-91-73-70</p>
+            <p class="main_wrapper_text"><img src="../../assets/26.png" alt="logo" class="main_wrapper_logo"></img>Время работы: Пн. - Пт. 8.00 - 17.00</p>
+            <p class="main_wrapper_text"><img src="../../assets/27.png" alt="logo" class="main_wrapper_logo"></img>E-mail: gomel@plho.by</p>
+          </div>
+          <div class="main_wrapper_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4095.4298693687033!2d31.029457912878375!3d52.3857010734002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d46800d957c4b3%3A0xe65ab0820263c9f2!2z0JvQtdC90LjQvdCz0YDQsNC00YHQutCw0Y8g0YPQuy4gNDIsINCT0L7QvNC10LvRjCwg0JPQvtC80LXQu9GM0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sby!4v1735484721691!5m2!1sru!2sby" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="main_map"></iframe></div>
+        </div>
+        <div class="main_card_wrapper">
+          <div class="main_wrapper_contacts">
+            <h1 class="main_wrapper_title">ДРЕВООБРАБАТЫВАЮЩИЙ ЦЕХ</h1>
+            <div class="horizontal"></div>
+            <p class="main_wrapper_text"><img src="../../assets/24.png" alt="logo" class="main_wrapper_logo"></img>Адрес: г.Рогачёв, ул. Октябрьская, 21</p>
+            <p class="main_wrapper_text"><img src="../../assets/25.png" alt="logo" class="main_wrapper_logo"></img>Телефон: 8 (02339) 7-36-51</p>
+            <p class="main_wrapper_text"><img src="../../assets/26.png" alt="logo" class="main_wrapper_logo"></img>Время работы: Пн. - Пт. 8.00 - 17.00</p>
+            <p class="main_wrapper_text"><img src="../../assets/27.png" alt="logo" class="main_wrapper_logo"></img>E-mail: lesrog@mail.gomel.by</p>
+          </div>
+          <div class="main_wrapper_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2396.2690535468478!2d30.05220288802808!3d53.08740273447793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d1347f7cd7b429%3A0xb7fc0f6e7558f8f5!2z0YPQuy4g0J7QutGC0Y_QsdGA0YzRgdC60LDRjyAyMSwg0KDQvtCz0LDRh9GR0LIsINCT0L7QvNC10LvRjNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sby!4v1735484765926!5m2!1sru!2sby" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="main_map"></iframe></div>
+        </div>
+        <div class="main_card_wrapper">
+          <div class="main_wrapper_contacts">
+            <h1 class="main_wrapper_title">НАШИ РЕКВИЗИТЫ</h1>
+            <div class="horizontal"></div>
+            <p class="main_wrapper_text2">ООО "ДМВУДГРУПП"</p>
+            <p class="main_wrapper_text2">УНП 692090539</p>
+            <p class="main_wrapper_text2">ОКПО 00995307300</p>
+            <p class="main_wrapper_text2">Свидетельство от 30.11.2021 выдано Борисовким РИК</p>
+          </div>
+          <div class="main_wrapper_map">
+            <h1 class="main_wrapper_title">БАНКОВСКИЕ РЕКВИЗИТЫ</h1>
+            <div class="horizontal"></div>
+            <p class="main_wrapper_text2">ОАО «АСБ Беларусбанк» в г.Минске, ул. Дзержинская, 18</p>
+            <p class="main_wrapper_text2">МФО код: АКВВВY2Х</p>
+            <p class="main_wrapper_text2">IBAN: BY02 AKBB 3015 0807 4001 5320 0000 - предпринимательская деятельность</p>
+            <p class="main_wrapper_text2">IBAN: BY12 AKBB 3605 90000 0740 320 0000 - лесохозяйственная деятельность</p>
+          </div>
+        </div>
+      </div>
+		</main>
+    <footer>
+      <div class="footer_wrapper">
+				<div class="footer_card_wrapper">
+					<img src="../../assets/3.png" alt="logo" class="footer_logo"></img>
+					<p class="footer_card_text">Наша компания занимается лесозаготовками и продажей пиломатериалов.</p>
+				</div>
+				<div class="footer_vertical vertical_one"></div>
+				<div class="footer_card_wrapper">
+					<p class="footer_card_title">ПРОДУКЦИЯ</p>
+					<p class="footer_text">Доски</p>
+					<p class="footer_text">Брус</p>
+					<p class="footer_text">Вагонка</p>
+					<p class="footer_text">Полки для бань</p>
+					<p class="footer_text">Дрова колотые</p>
+					<p class="footer_text">Щепа</p>
+				</div>
+				<div class="footer_vertical vertical_two"></div>
+				<div class="footer_card_wrapper">
+					<p class="footer_card_title">КОНТАКТЫ</p>
+					<p class="footer_text_info">3329688@mail.ru</p>
+					<p class="footer_text_info">+375 (44) 525-10-52</p>
+					<p class="footer_text_info">Борисовский р-н, д.Углы, Московское шоссе д.1, ком.3</p>
+				</div>
+				<div class="footer_vertical vertical_three"></div>
+				<div class="footer_card_wrapper_contacts">
+          <div class="input_wrapper">
+            <input type="checkbox" id="vehicle" name="" value="" class="checkbox">
+            <label for="vehicle" class="checkbox_text"> 
+              <span>ПОДПИСАТЬСЯ НА НОВОСТИ</span>
+            </label>
+          </div>
+					<form class="footer_submit_form" action="">
+						<input
+							class="footer_submit_email"
+							type="email"
+							placeholder="E-mail"
+							required
+							/>
+						<input class="footer_submit_button" type="submit" value="ОСТАВИТЬ ЗАЯВКУ" />
+					</form>
+				</div>
+			</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Лесозаготовки</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../../assets/0.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+			<div class="header_logo_wrapper">
+				<img src="../../assets/19.png" alt="logo" class="header_logo"></img>
+				<div class="header_contact_wrapper">
+					<a href="../../pages/about/index.html"><p class="header_text">О Компании</p></a>
+					<a href="../../pages/pay/index.html"><p class="header_text">Доставка и Оплата</p></a>
+					<a href="../../pages/contacts/index.html"><p class="header_text">Контакты</p></a>
+				</div>
+				<div class="header_time_wrapper">
+					<img src="../../assets/21.png" alt="logo"></img>
+					<p class="header_time_text">Пн-Вс 8:00 - 17:00</p>
+					<img src="../../assets/22.png" alt="logo"></img>
+					<p class="header_time_text">+375 (44) 525-10-52</p>
+				</div>
+				<button class="header_title_button" id="myBtn">ОСТАВИТЬ ЗАЯВКУ</button>
+				<!--........................................................бургер-меню................................................-->
+				<div class="burger_button">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<div class="burger_wrapper">
+          <ul>
+            <a href="../../pages/main/index.html"><li class="burger_link">ГЛАВНАЯ</li></a>
+            <a href="../../pages/about/index.html"><li class="burger_link">О КОМПАНИИ</li></a>
+            <a href="../../pages/pay/index.html"><li class="burger_link">ДОСТАВКА И ОПЛАТА</li></a>
+            <a href="../../pages/contacts/index.html"><li class="burger_link">КОНТАКТЫ</li></a>
+            <a href="../../pages/cataloge/index.html"><li class="burger_link">КАТАЛОГ</li></a>
+        </ul>
+        <p class="burger_text">Пн-Вс 8:00 - 17:00</p>
+        <p class="burger_text">+375 (44) 525-10-52</p>
+        </div>
+				<!--........................................................бургер-меню................................................-->
+			</div>
+		</header>
+  	<main>
+		      <!-- ...........................................Модальное окно.................................................... -->
+			  <div id="myModal" class="modal">
+				<div class="modal_wrapper">
+				  <form class="decor">
+					<div class="form_inner">
+					  <h3 class="decor_title">
+						Заполните форму
+					  </h3>
+					  <p  class="decor_text">И в ближайшее время сотрудник нашей компании свяжется с Вами</p>
+					  <input
+						type="text"
+						placeholder="Имя"
+						class="input_class"
+						required
+					  />
+					  <input
+						type="tel"
+						placeholder="Телефон"
+						class="input_class"
+						required
+					  />
+					  <input
+									type="email"
+									placeholder="E-mail"
+					  class="input_class"
+									required
+									/></input>
+					  <input type="submit" value="Отправить" class="input_but" />
+					</div>
+					<div class="checkbox_wrapper">
+					  <input type="checkbox" id="vehicle" name="" value="" class="checkbox">
+					  <label for="vehicle"> 
+						<span>Отправляя эту форму, вы даете свое согласие на обработку персональных данных в соответствии с нашей
+						   <a href="https://sunward.by/privacy-policy" class="label_link" target="_blank">Политикой конфиденциальности</a>.</span>
+					  </label>
+					</div>
+				  </form>
+				</div>
+			  </div>
+					<!-- ...........................................Модальное окно................................................... -->
+			<div class="main_title_wrapper">
+				<img src="../../assets/23.png" alt="logo" class="main_title_logo"></img>
+				<h1 class="main_title">КАТАЛОГ</h1>
+				<p class="main_text">ВЕРНУТЬСЯ НА <a href="../../pages/main/index.html"><span class="main_text_span">ГЛАВНУЮ</span></a></p>
+			</div>
+			<div class="main_wrapper">
+				<div class="card_wrapper">
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/12.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Полок для бани</p>
+						<p class="products_card_text">Полок предназначен для строительно-отделочных работ.</p>
+						<button class="products_card_button" id="btnOne">УЗНАТЬ ЦЕНУ</button>
+					</div>
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/14.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Дрова колотые</p>
+						<p class="products_card_text">Натуральное древесное сырье делает наши дрова экологически чистыми.</p>
+						<button class="products_card_button" id="btnTwo">УЗНАТЬ ЦЕНУ</button>
+					</div>
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/17.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Брус</p>
+						<p class="products_card_text">Брус широко распространен в строительстве домов, бань, гаражей.</p>
+						<button class="products_card_button" id="btnThree">УЗНАТЬ ЦЕНУ</button>
+					</div>
+				</div>
+				<div class="card_wrapper">
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/16.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Доска обрезная</p>
+						<p class="products_card_text">Доска обрезная является универсальным пиломатериалом.</p>
+						<button class="products_card_button" id="btnFour">УЗНАТЬ ЦЕНУ</button>
+					</div>
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/13.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Вагонка</p>
+						<p class="products_card_text">Изготовлена из экологически чистого материала (сосна).</p>
+						<button class="products_card_button" id="btnFive">УЗНАТЬ ЦЕНУ</button>
+					</div>
+					<div class="products_card_one">
+						<div class="products_card_logo_wrapper">
+							<img src="../../assets/15.jpg" alt="logo" class="products_card_logo"></img>
+						</div>
+						<p class="products_card_title">Щепа</p>
+						<p class="products_card_text">Щепа - это натуральный материал, полученный из древесных отходов.</p>
+						<button class="products_card_button" id="btnSix">УЗНАТЬ ЦЕНУ</button>
+					</div>
+				</div>
+			</div>
+		</main>
+    <footer>
+      <div class="footer_wrapper">
+				<div class="footer_card_wrapper">
+					<img src="../../assets/3.png" alt="logo" class="footer_logo"></img>
+					<p class="footer_card_text">Наша компания занимается лесозаготовками и продажей пиломатериалов.</p>
+				</div>
+				<div class="footer_vertical vertical_one"></div>
+				<div class="footer_card_wrapper">
+					<p class="footer_card_title">ПРОДУКЦИЯ</p>
+					<p class="footer_text">Доски</p>
+					<p class="footer_text">Брус</p>
+					<p class="footer_text">Вагонка</p>
+					<p class="footer_text">Полки для бань</p>
+					<p class="footer_text">Дрова колотые</p>
+					<p class="footer_text">Щепа</p>
+				</div>
+				<div class="footer_vertical vertical_two"></div>
+				<div class="footer_card_wrapper">
+					<p class="footer_card_title">КОНТАКТЫ</p>
+					<p class="footer_text_info">3329688@mail.ru</p>
+					<p class="footer_text_info">+375 (44) 525-10-52</p>
+					<p class="footer_text_info">Борисовский р-н, д.Углы, Московское шоссе д.1, ком.3</p>
+				</div>
+				<div class="footer_vertical vertical_three"></div>
+				<div class="footer_card_wrapper_contacts">
+          <div class="input_wrapper">
+            <input type="checkbox" id="vehicle" name="" value="" class="checkbox">
+            <label for="vehicle" class="checkbox_text"> 
+              <span>ПОДПИСАТЬСЯ НА НОВОСТИ</span>
+            </label>
+          </div>
+					<form class="footer_submit_form" action="">
+						<input
+							class="footer_submit_email"
+							type="email"
+							placeholder="E-mail"
+							required
+							/>
+						<input class="footer_submit_button" type="submit" value="ОСТАВИТЬ ЗАЯВКУ" />
+					</form>
+				</div>
+			</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
